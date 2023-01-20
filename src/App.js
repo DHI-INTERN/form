@@ -1,18 +1,48 @@
-import "bootstrap/dist/css/bootstrap.min.css"
-import "./App.css"
-import { BrowserRouter, Routes, Route } from "react-router-dom"
-import Login from "./Login"
+import Navbar from "./components/Navbar";
+import Header from "./components/Header";
+import Main from "./components/Main";
+import Home from "./components/Home";
+import Footer from "./components/Footer";
+import Res from './components/res';
+import PatientRegistration from './components/Patientregister';
+import Doctorregistration from './components/Doctorregistration';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route
+  // Routes,
+  // Redirect
+  
+} from "react-router-dom";
 
 function App() {
   return (
-    // <BrowserRouter>
-    //   <Routes>
-    //     <Route path="/login" element={<Login />} />
-    //   </Routes>
-    // </BrowserRouter>
-    <Login/>
-    
-  )
+    <>
+    <Router>
+      {/* <Home/> */}
+      {/* <Doctorregistration/> */}
+      {/* <Navbar />
+      <Header />
+      <Main />
+      <Footer />  */}
+
+      <Routes>
+        {/* <Route path="/" element={<PatientRegistration />} /> */}
+        <Route exact path="/" element={<Home />} />
+        <Route path="/preg" element={<PatientRegistration />} />
+        <Route path="/docreg" element={<Doctorregistration />} />
+        <Route path="/res" element={<Res />} />
+        <Route path="/nav" element={<Navbar />} />
+        <Route path="/main" element={<Main />} />
+        <Route path="/footer" element={<Footer />} />
+        <Route path="/header" element={<Header />} />
+
+        
+      </Routes>
+    </Router>
+  </>
+
+  );
 }
 
-export default App
+export default App;
