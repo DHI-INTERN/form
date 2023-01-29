@@ -15,13 +15,13 @@ function Services() {
                     <Card title="Reliable Places" img={cards1} text="We do... What we say... We promise for satisfaction and meet the expectation." />
                     </div>
                     <div className="col-md-4 mb-2">
-                    <Card title="High Credibility" img={cards2} text="Credibility comes with believe in chance to perform the quality. We promise to deliver the best always." />
+                    <Card title="High Credibility" img={cards2} text="Credibility comes with a belief in chance to perform the quality. We promise to deliver the best always." />
                     </div>
                     <div className="col-md-4 mb-2">
-                    <Card title="Quick search" img={cards3} text="As you click the button, you get the result. We save your valuable time & give you the answer." />
+                    <Card title="Quick search" img={cards3} text="As you click on the button, you get the result. We save your valuable time & give you the answer." />
                     </div>
                     <div className="col-md-4 mb-2">
-                    <Card title="Know better" img={cards4} text="You search for better. we give you the same with your suitability. We have expert to deal your queries." />
+                    <Card title="Know better" img={cards4} text="You search for better. we give you the same with your suitability. We have experts to deal with your queries." />
                     </div>
                 </div>
             </div>

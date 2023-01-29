@@ -34,7 +34,7 @@ function Footer() {
                   <Link to="about-scroll" spy={true} smooth={true} duration={1000}>About Us  </Link>
                   </li>
                   <li>
-                  <Link to="contact" spy={true} smooth={true} duration={1000}> Contact  </Link>
+                  <a href='/terms'>Terms</a>
                   </li>
                 </ul>
               </div>
@@ -51,22 +51,15 @@ function Footer() {
                   <li>
                     <a href="https://www.google.com/maps/place/Bengaluru,+Karnataka/@12.9538477,77.3507442,10z/data=!3m1!4b1!4m5!3m4!1s0x3bae1670c9b44e6d:0xf8dfc3e8517e4fe0!8m2!3d12.9715987!4d77.5945627" >Bangalore</a>
                   </li>
-                  <li>
-                    <Link to="#" >91xxxxxx00</Link>
-                  </li>
+                  
                 </ul>
               </div>
+             
               <div className="col-md-3">
-                <p className="footer-title">Social Media</p>
+                <p className="footer-title">Address</p>
                 <ul>
                   <li>
-                    <a target="_blank" rel="noreferrer" href="https://github.com/darkleas" > FaceBook</a>
-                  </li>
-                  <li> 
-                    <a target="_blank" rel="noreferrer" href="https://twitter.com/burhankocadag0" > Twitter</a>
-                  </li>
-                  <li>
-                    <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/burhan-kocada%C4%9F-49a3331a5/"> Linkedin</a>
+                    <a target="_blank" rel="noreferrer"  >#433, 1st Floor, 17th Cross, J.P Nagar 6th Phase<br/>Bangalore-560078</a>
                   </li>
                 </ul>
               </div>

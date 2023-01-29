@@ -342,7 +342,9 @@ footer ul li a {
 .card:hover {
   transform:scale(1.03);
 }
-
+.terms{
+  align-items: center;
+}
 .services .col-md-4 {
   margin: 1rem 1rem 1rem 1rem;
 
