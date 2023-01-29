@@ -7,6 +7,7 @@ import Res from './components/res';
 import PatientRegistration from './components/Patientregister';
 import Doctorregistration from './components/Doctorregistration';
 import TermsC from './components/Terms';
+import PrivacyP from './components/Privacy';
 import {
   BrowserRouter as Router,
   Routes,
@@ -38,6 +39,7 @@ function App() {
         <Route path="/footer" element={<Footer />} />
         <Route path="/header" element={<Header />} />
         <Route path="/terms" element={<TermsC />} />
+        <Route path="/privacy" element={<PrivacyP />} />
 
 
         
