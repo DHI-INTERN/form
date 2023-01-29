@@ -19,20 +19,7 @@ function Footer() {
               <div className="col-md-3">
                 <p className="footer-title">Important Link</p>
                 <ul>
-                  <li>
-                  <Link   
-                         spy={true}
-                         smooth={true}
-                         duration={1000}
-                         to="headerbg"
-                  > Home </Link>
-                  </li>
-                  <li>
-                  <Link to="services" spy={true} smooth={true} duration={1000} > Services </Link>
-                  </li>
-                  <li>
-                  <Link to="about-scroll" spy={true} smooth={true} duration={1000}>About Us  </Link>
-                  </li>
+                 
                   <li>
                   <a href='/terms'>Terms</a>
                   </li>
@@ -59,7 +46,7 @@ function Footer() {
               </div>
              
               <div className="col-md-3">
-                <p className="footer-title">Address</p>
+                <p className="footer-title">Office Address</p>
                 <ul>
                   <li>
                     <a target="_blank" rel="noreferrer"  >#433, 1st Floor, 17th Cross, J.P Nagar 6th Phase<br/>Bangalore-560078</a>
